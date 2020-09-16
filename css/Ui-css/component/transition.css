@@ -1,0 +1,27 @@
+.transition-1s {
+  transition: 1s;
+}
+.transition-1-5s {
+  transition: 1.5s;
+}
+.transition-2s {
+  transition: 2s;
+}
+.transition-2-5s {
+  transition: 2.5s;
+}
+.transition-3s {
+  transition: 3s;
+}
+.transition-3-5s {
+  transition: 3.5s;
+}
+.transition-4s {
+  transition: 4s;
+}
+.transition-4-5s {
+  transition: 4.5s;
+}
+.transition-5s {
+  transition: 5s;
+}

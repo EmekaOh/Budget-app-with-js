@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="padding">
+      <h1 class="font-weight-bold text-gray">Budget App</h1>
+    </header>
+    <main>
+      <div class="main">
+        <div class="error">
+          <h2>Budget Value Connot Be Empty !!!</h2>
+        </div>
+        <div class="green-border budget padding">
+          <form action="">
+            <h2>Please Enter Your Budget</h2>
+            <input type="number" class="display-block" />
+            <button id="budget" class="btn btn-light">Enter Budget</button>
+          </form>
+        </div>
+        <div class="screen display-flex justify-content-space-around">
+          <div class="screen-info">
+            <h2>Budget</h2>
+            <i class="fas fa-money-bill-alt fa-2x"></i>
+            <div>
+              <span class="text-green"
+                ><i class="fas fa-dollar-sign"></i> 0</span
+              >
+            </div>
+          </div>
+          <div class="screen-info">
+            <h2>Expenses</h2>
+            <i class="fas fa-money-check fa-2x"></i>
+            <div>
+              <span class="text-red"><i class="fas fa-dollar-sign"></i> 0</span>
+            </div>
+          </div>
+          <div class="screen-info">
+            <h2>Balance</h2>
+            <i class="fas fa-wallet fa-2x"></i>
+            <div>
+              <span class="text-black"
+                ><i class="fas fa-dollar-sign"></i> 0</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="error">
+          <h2>Expense Value Connot Be Empty !!!</h2>
+        </div>
+        <div class="expenses red-border padding">
+          <h2>Please Enter Your Expense</h2>
+          <input type="text" class="display-block" />
+          <h2>Please Enter Expense Amount</h2>
+          <input type="number" class="display-block" />
+          <button id="expenses" class="btn btn-light">Add Expenses</button>
+        </div>
+        <div
+          class="result-screen padding text-align-center margin-top display-flex justify-content-space-around"
+        >
+          <div id="display-expense-title">
+            <h2>Expense Title</h2>
+            <!-- <p class="text-red">- <span>Fix A Car</span></p>
+            <p class="text-red">- <span>Rent</span></p>
+            <p class="text-red">- <span>Repairs</span></p> -->
+          </div>
+          <div id="display-expense-value">
+            <h2>Expense Value</h2>
+            <div>
+              <!-- <p class="text-red">1000</p>
+              <p class="text-red">1000</p>
+              <p class="text-red">2000</p> -->
+            </div>
+          </div>
+          <div id="icons" class="icons">
+            <!--
+            <div>
+              <i class="far fa-check-square text-blue"></i>
+              <i class="fas fa-trash text-red"></i>
+            </div>
+            <div>
+              <i class="far fa-check-square text-blue"></i>
+              <i class="fas fa-trash text-red"></i>
+            </div>
+            <div>
+              <i class="far fa-check-square text-blue"></i>
+              <i class="fas fa-trash text-red"></i>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>Designed By <a href="#">Emeka</a></h2>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

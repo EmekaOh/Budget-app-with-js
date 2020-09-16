@@ -1,0 +1,25 @@
+/* border */
+.border-none {
+  border: none;
+}
+.red-border {
+  border: 1px solid red;
+}
+.yellow-border {
+  border: 1px solid yellow;
+}
+.blue-border {
+  border: 1px solid blue;
+}
+.green-border {
+  border: 1px solid green;
+}
+.white-border {
+  border: 1px solid white;
+}
+.black-border {
+  border: 1px solid black;
+}
+.orange-border {
+  border: 1px solid orange;
+}

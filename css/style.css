@@ -1,0 +1,156 @@
+@import url("./Ui-css/style.css");
+
+header h1 {
+  font-size: 22px;
+}
+
+main {
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 2rem;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.7);
+  padding: 1rem;
+  width: 70%;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  color: white;
+  display: none;
+}
+
+.budget,
+.expenses,
+.screen,
+.result-screen {
+  width: 400px;
+  margin: auto;
+}
+
+.budget,
+.expenses {
+  border-radius: 4px;
+}
+.budget input,
+.expenses input {
+  margin: 0.5rem 0 1rem;
+  padding: 0.3rem 0 0.3rem 0.5rem;
+  width: 100%;
+  border: 1px solid gray;
+  font-size: 14px;
+}
+.budget input:focus {
+  outline: 1px solid rgba(0, 128, 0, 0.8);
+  border: 1px solid white;
+}
+.budget button {
+  border: 1px solid rgba(0, 128, 0, 0.8);
+}
+.budget button:hover {
+  color: white;
+  background-color: yellowgreen;
+  border: 1px solid white;
+}
+
+.screen {
+  padding: 1.5rem 0;
+}
+.screen-info {
+  text-align: center;
+}
+.screen h2 {
+  font-size: 22px;
+}
+.screen span {
+  font-size: 17px;
+}
+.fa-wallet,
+.fa-money-check,
+.fa-money-bill-alt {
+  color: rgb(44, 44, 212);
+  margin: 0.8rem 0;
+}
+
+.expenses button {
+  border: 1px solid rgba(255, 0, 0, 0.8);
+}
+.expenses button:hover {
+  border: 1px solid white;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+}
+.expenses input:focus {
+  outline: 1px solid rgba(255, 0, 0, 0.8);
+  border: 1px solid white;
+}
+
+.result-screen h2 {
+  font-size: 16px;
+}
+.result-screen p,
+.icons i {
+  font-size: 13px;
+}
+.result-screen h2,
+.result-screen p,
+.icons i {
+  padding-bottom: 0.4rem;
+}
+.icons {
+  padding-top: 1.3rem;
+}
+.fa-check-square:hover {
+  color: yellowgreen;
+  cursor: pointer;
+}
+.fa-trash {
+  color: rgba(255, 0, 0, 0.4);
+  cursor: pointer;
+  margin-left: .2rem;
+}
+.fa-trash:hover {
+  color: red;
+}
+
+footer h2 {
+  float: right;
+  padding: 1rem;
+}
+
+footer a:hover {
+  color: red;
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    height: 80vh;
+    display: flex;
+  }
+  .main {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas: "myArea myArea";
+  }
+  .screen {
+    margin: auto;
+  }
+  .screen {
+    padding-top: 1rem;
+  }
+  .screen,
+  .result-screen {
+    margin: 0;
+  }
+  footer h2 {
+    padding: 2rem 1rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main {
+    width: 65%;
+  }
+}
+

@@ -1,0 +1,42 @@
+/* -- Google Font --*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+/* -- Component Design --*/
+@import url('./component/avatar.css');
+@import url('./component/badge.css');
+@import url('./component/banner.css');
+@import url('./component/button.css');
+@import url('./component/card.css');
+@import url('./component/colors.css');
+@import url('./component/customized-scroll-bar.css');
+@import url('./component/display-properties.css');
+@import url('./component/font-awesome.css');
+@import url('./component/fonts.css');
+@import url('./component/opacity.css');
+@import url('./component/position.css');
+@import url('./component/product.css');
+@import url('./component/reset.css');
+@import url('./component/spacing-properties.css');
+@import url('./component/tabs.css');
+@import url('./component/text-transform.css');
+@import url('./component/transition.css');
+@import url('./component/border.css');
+
+/*          Reset Css 
+@import url('./component/reset.css');*/
+/*          Spacing Properties Css 
+@import url('./component/spacing-properties.css');*/
+
+/* -- Fonts --*/
+body{
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, p,a {
+  font-family: 'Roboto', sans-serif;
+}
